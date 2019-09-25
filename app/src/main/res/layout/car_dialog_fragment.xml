@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="300dp"
+    android:layout_height="400dp">
+
+
+    <EditText
+        android:id="@+id/car_detail_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="15dp"
+        android:textSize="20sp"
+        android:hint="color"
+        />
+    <EditText
+        android:id="@+id/car_detail_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="15dp"
+        android:textSize="20sp"
+        android:layout_below="@id/car_detail_1"
+        android:hint="car detail 2"
+        />
+    <EditText
+        android:id="@+id/car_detail_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="15dp"
+        android:textSize="20sp"
+        android:layout_below="@id/car_detail_2"
+        android:hint="car detail 3"
+        />
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/car_detail_3"
+        android:text="Submit"
+        />
+    <Button
+        android:id="@+id/cancel_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/submit_button"
+        android:text="Cancel"
+        />
+</RelativeLayout>

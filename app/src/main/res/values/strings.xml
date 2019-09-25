@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Demo</string>
+    <string name="brand">brand</string>
+    <string name="model">model</string>
+    <string name="year">year</string>
+    <string name="detail1">detail1</string>
+    <string name="detail2">detail2</string>
+    <string name="detail3">detail3</string>
+</resources>
